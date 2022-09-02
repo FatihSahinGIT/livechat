@@ -1,9 +1,9 @@
 import { initializeApp } from "firebase/app";
+
 // TODO: Add SDKs for Firebase products that you want to use
 
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-
 
 console.log(process.env.REACT_APP_API);
 
